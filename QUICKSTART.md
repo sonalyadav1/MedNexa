@@ -16,10 +16,10 @@ start.bat
 ```
 
 The script will:
-1. ✅ Check prerequisites
-2. ✅ Install all dependencies
-3. ✅ Start backend (http://localhost:8000)
-4. ✅ Start frontend (http://localhost:3000)
+1. Check prerequisites
+2. Install all dependencies
+3. Start backend (http://localhost:8000)
+4. Start frontend (http://localhost:3000)
 
 ### Option 2: Manual Start
 
@@ -40,17 +40,17 @@ npm install
 npm run dev
 ```
 
-## 🎯 First Query
+##  First Query
 
 1. Open browser: http://localhost:3000
 2. Enter a query:
    ```
    Find Phase 3 breast cancer immunotherapy trials
    ```
-3. Click Search 🔍
+3. Click Search 
 4. View results in Dashboard
 
-## 📊 What You'll See
+##  What You'll See
 
 ### Dashboard Tabs:
 - **Overview** - Charts and statistics
@@ -61,13 +61,13 @@ npm run dev
 
 ### Example Output:
 ```
-✅ 47 Clinical Trials Found
-✅ 20 Scientific Papers
-✅ Safety Risk Score: 5.2/10 (Medium)
-✅ 15 Key Insights Generated
+ 47 Clinical Trials Found
+ 20 Scientific Papers
+ Safety Risk Score: 5.2/10 (Medium)
+ 15 Key Insights Generated
 ```
 
-## 🔑 API Keys (Optional)
+##  API Keys (Optional)
 
 For better rate limits, add to `backend/.env`:
 
@@ -79,7 +79,7 @@ NCBI_EMAIL=your@email.com
 # Get key: https://www.ncbi.nlm.nih.gov/account/
 ```
 
-## 🧪 Try These Queries
+## Try These Queries
 
 1. **Drug Safety:**
    ```
@@ -101,7 +101,7 @@ NCBI_EMAIL=your@email.com
    Metformin vs insulin for Type 2 diabetes treatment
    ```
 
-## 📥 Generate Report
+##  Generate Report
 
 1. Complete a search
 2. Go to Report page
@@ -113,7 +113,7 @@ NCBI_EMAIL=your@email.com
    - Safety analysis
    - Recommendations
 
-## 🔍 API Testing
+##  API Testing
 
 Test API directly:
 
@@ -133,7 +133,7 @@ curl -X POST http://localhost:8000/api/analyze \
 open http://localhost:8000/docs
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend won't start:
 ```bash
@@ -160,34 +160,18 @@ npm install
 - Verify API endpoints are accessible
 - Review backend logs for errors
 
-## 📚 Next Steps
+##  Next Steps
 
 1. **Customize Agents:** Edit files in `backend/agents/`
 2. **Add Data Sources:** Extend agents with new APIs
 3. **Modify UI:** Update React components in `frontend/src/`
 4. **Deploy:** See README for Docker deployment
 
-## 🎓 Learn More
+##  Learn More
 
 - Full Documentation: README.md
 - API Reference: http://localhost:8000/docs
 - Architecture Guide: README.md#architecture
 
-## 💡 Tips
-
-1. **Save API Keys:** Speeds up requests significantly
-2. **Use Filters:** Narrow searches for faster results
-3. **Bookmark Queries:** Save common searches
-4. **Export Data:** Download reports for offline analysis
-
-## 🚀 Production Deployment
-
-See README.md for:
-- Docker deployment
-- Environment configuration
-- Security best practices
-- Performance optimization
-
----
 
 **Need Help?** Check the full README.md or open an issue on GitHub.

@@ -1,4 +1,4 @@
-# MedNexa - Multi-Agent AI Pharma Research Assistant 🏥
+# MedNexa - Multi-Agent AI Pharma Research Assistant 
 
 A comprehensive pharmaceutical research automation platform powered by multi-agent AI that performs end-to-end analysis across multiple global medical databases.
 
@@ -7,14 +7,14 @@ A comprehensive pharmaceutical research automation platform powered by multi-age
 ![React](https://img.shields.io/badge/React-18.2-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104-teal)
 
-## 🌟 Overview
+##  Overview
 
 MedNexa automates the entire pharmaceutical research workflow that traditionally takes researchers days or weeks. It aggregates data from 5 major medical databases, performs AI-powered analysis, generates safety assessments, and produces comprehensive reports.
 
 ### Problem Solved
 Researchers waste significant time manually searching across multiple websites for clinical trials, scientific papers, safety alerts, and global health updates. MedNexa automates this entire workflow with intelligent multi-agent coordination.
 
-## 🎯 Core Features
+##  Core Features
 
 ### 1. **Multi-Source Data Aggregation**
 - **ClinicalTrials.gov** - US clinical trials database
@@ -65,7 +65,7 @@ Researchers waste significant time manually searching across multiple websites f
 - Comparison views
 - Downloadable PDF reports
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 MedNexa/
@@ -116,7 +116,7 @@ MedNexa/
     └── package.json
 ```
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -182,7 +182,7 @@ npm run dev
 
 The frontend will be available at `http://localhost:3000`
 
-## 📖 Usage Guide
+##  Usage Guide
 
 ### 1. Basic Search
 
@@ -223,7 +223,7 @@ Click "Generate Report" to create a comprehensive PDF including:
 - Comparison charts
 - Insights and recommendations
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Analysis Endpoints
 
@@ -314,7 +314,7 @@ Download a sample report (no analysis required).
 - **Note:** Requires specific authentication
 - **Data:** European trial information
 
-## 🎨 Frontend Technologies
+##  Frontend Technologies
 
 - **React 18.2** - UI framework
 - **React Router** - Navigation
@@ -325,7 +325,7 @@ Download a sample report (no analysis required).
 - **React Hot Toast** - Notifications
 - **Hero Icons** - Icon library
 
-## 🔧 Backend Technologies
+##  Backend Technologies
 
 - **FastAPI** - Web framework
 - **Pydantic** - Data validation
@@ -335,7 +335,7 @@ Download a sample report (no analysis required).
 - **pandas** - Data processing
 - **matplotlib** - Chart generation
 
-## 📊 Data Models
+##  Data Models
 
 ### Trial Model
 ```python
@@ -367,7 +367,7 @@ Download a sample report (no analysis required).
 }
 ```
 
-## 🧪 Testing
+##  Testing
 
 ### Backend Tests
 ```bash
@@ -381,7 +381,7 @@ cd frontend
 npm test
 ```
 
-## 🚢 Deployment
+##  Deployment
 
 ### Docker Deployment (Recommended)
 
@@ -422,7 +422,7 @@ npm run build
 npm run preview
 ```
 
-## 🔒 Security Considerations
+##  Security Considerations
 
 1. **API Keys:** Store in environment variables, never commit
 2. **CORS:** Configure allowed origins in production
@@ -430,7 +430,7 @@ npm run preview
 4. **Input Validation:** All inputs validated with Pydantic
 5. **HTTPS:** Use SSL certificates in production
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -460,7 +460,7 @@ npm install
 - Check API rate limits
 - Review backend logs
 
-## 📈 Performance Optimization
+## Performance Optimization
 
 1. **Caching:** Implement Redis for frequent queries
 2. **Parallel Processing:** All data sources fetched concurrently
@@ -468,7 +468,7 @@ npm install
 4. **Database:** Add PostgreSQL for persistent storage
 5. **CDN:** Use CDN for frontend static assets
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Please:
 1. Fork the repository
@@ -477,28 +477,24 @@ Contributions welcome! Please:
 4. Add tests
 5. Submit a pull request
 
-## 📝 License
+##  License
 
 MIT License - See LICENSE file for details
 
-## 👥 Authors
+##  Authors
 
 MedNexa Development Team
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - ClinicalTrials.gov for clinical trial data
 - NCBI/PubMed for scientific literature
 - FDA for adverse event data
 - WHO and EMA for global trial registries
 
-## 📧 Contact
+## Contact
 
 For questions or support:
-- Email: support@mednexa.com
-- Documentation: https://docs.mednexa.com
-- Issues: GitHub Issues
+- Email: sonal.y6390@gmail.com
 
----
 
-**Built with ❤️ for the pharmaceutical research community**
