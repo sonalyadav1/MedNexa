@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 70" width="280" height="70">
+  <!-- MedNexa Text -->
+  <text x="10" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="38" font-weight="600" fill="#1e293b" letter-spacing="-0.5">
+    MedNexa
+  </text>
+  
+  <!-- Purple Circle -->
+  <circle cx="220" cy="12" r="9" fill="#8b5cf6"/>
+  
+  <!-- Blue Bean/Crescent Shape - like a thick comma or curved bean -->
+  <path d="M 210 25 
+           C 205 35, 210 55, 230 60 
+           C 250 62, 258 45, 250 30
+           C 245 38, 235 45, 225 42
+           C 218 40, 212 32, 210 25 Z" 
+        fill="#3b82f6"/>
+</svg>

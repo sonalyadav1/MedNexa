@@ -1,0 +1,40 @@
+# Core FastAPI
+fastapi>=0.104.0
+uvicorn>=0.24.0
+httpx>=0.25.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# HTTP and parsing
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+xmltodict>=0.13.0
+
+# PDF generation
+reportlab>=4.0.0
+pillow>=10.0.0
+
+# File handling
+python-multipart>=0.0.6
+aiofiles>=23.0.0
+
+# Optional - remove version constraints for Python 3.13 compatibility
+pandas>=2.2.0
+numpy>=2.0.0
+
+# Optional ML/visualization (can be removed if causing issues)
+# matplotlib>=3.8.0
+# seaborn>=0.13.0
+# scikit-learn>=1.3.0
+# openpyxl>=3.1.0
+
+# Optional auth/caching
+# redis>=5.0.0
+# python-jose>=3.3.0
+# passlib>=1.7.0
+
+# Optional AI (requires API keys)
+# openai>=1.3.0
+# anthropic>=0.7.0
