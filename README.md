@@ -468,22 +468,15 @@ npm install
 4. **Database:** Add PostgreSQL for persistent storage
 5. **CDN:** Use CDN for frontend static assets
 
-##  Contributing
-
-Contributions welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
-##  License
-
-MIT License - See LICENSE file for details
 
 ##  Authors
 
-MedNexa Development Team
+AgentiQ Labs Development Team
+1.Aditya Verma
+2.Sonal Yadav
+3.Karan Verma
+4.Swati Singhaniya
+
 
 ##  Acknowledgments
 
